@@ -1,6 +1,4 @@
-# 🎬 Sistema de Locadora em Python com Tratamento de Erros
-
-Este projeto é um sistema de locadora de filmes e jogos, implementado em Python utilizando conceitos de **Programação Orientada a Objetos (POO)** e **tratamento de exceções (`try-except`)**.
+# 🎬 Sistema de Locadora 
 
 ## ✅ Funcionalidades
 
@@ -19,7 +17,6 @@ Este projeto é um sistema de locadora de filmes e jogos, implementado em Python
 
 Classe base que representa qualquer item da locadora (filme ou jogo).
 
-```python
 class Item:
     def __init__(codigo, titulo)
     def alugar()
@@ -62,9 +59,6 @@ faixaEtaria: Classificação etária (Ex: Livre, 18+)
 
 👤 Classe Cliente
 Representa um cliente da locadora.
-
-python
-Copiar código
 class Cliente:
     def __init__(nome, cpf)
     def locar(item)
@@ -88,27 +82,3 @@ listarItens(): Lista os itens atualmente alugados
 
 🏪 Classe Locadora
 Gerencia os clientes e itens.
-
-python
-Copiar código
-class Locadora:
-    def __init__()
-    def cadastrarCliente(cliente)
-    def cadastrarItem(item)
-    def listarClientes()
-    def listarItens()
-Atributos:
-
-clientes: Lista de objetos Cliente
-
-itens: Lista de objetos Filme ou Jogo
-
-Métodos:
-
-cadastrarCliente(cliente): Adiciona um cliente ao sistema
-
-cadastrarItem(item): Adiciona um item ao catálogo
-
-listarClientes(): Mostra todos os clientes cadastrados
-
-listarItens(): Mostra todos os itens com seu status (Disponível / Alugado)
