@@ -7,7 +7,6 @@
 - Aluguel e devolução de itens
 - Listagem de itens e clientes
 - Verificação de disponibilidade
-- Tratamento de erros com `try-except`
 
 ---
 
