@@ -1,8 +1,8 @@
-🎬 Sistema de Locadora
+# 🎬 Sistema de Locadora
 
 Sistema simples para gerenciamento de uma locadora de filmes e jogos.
 
-✅ Funcionalidades
+## ✅ Funcionalidades
 
 Cadastro de clientes
 
@@ -46,7 +46,7 @@ alugar(): Marca o item como alugado (disponivel = False)
 
 devolver(): Marca o item como disponível (disponivel = True)
 
-🎥 Classe Filme (herda de Item)
+## 🎥 Classe Filme (herda de Item)
 class Filme(Item):
     def __init__(self, codigo, titulo, genero, duracao):
         super().__init__(codigo, titulo)
@@ -60,7 +60,7 @@ genero: Gênero do filme (Ex: Ação, Comédia)
 
 duracao: Duração em minutos
 
-🎮 Classe Jogo (herda de Item)
+## 🎮 Classe Jogo (herda de Item)
 class Jogo(Item):
     def __init__(self, codigo, titulo, plataforma, faixaEtaria):
         super().__init__(codigo, titulo)
@@ -74,7 +74,7 @@ plataforma: Plataforma (Ex: PS5, Xbox)
 
 faixaEtaria: Classificação etária (Ex: Livre, 18+)
 
-👤 Classe Cliente
+## 👤 Classe Cliente
 
 Representa um cliente da locadora.
 
@@ -114,7 +114,7 @@ devolver(item): Devolve um item se estiver alugado pelo cliente
 
 listarItens(): Lista os itens alugados pelo cliente
 
-🏪 Classe Locadora
+## 🏪 Classe Locadora
 
 Gerencia os clientes e itens.
 
